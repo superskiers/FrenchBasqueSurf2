@@ -1,0 +1,62 @@
+<resources>
+    <string name="app_name">FrenchBasqueSurf</string>
+
+    <!--Category Strings-->
+    <string name="category_swell">SWELL</string>
+    <string name="category_wind">WIND</string>
+    <string name="category_tides">TIDES</string>
+    <string name="category_forecast">FORECAST</string>
+
+    <!--Content Descriptions-->
+    <string name="imageInfoView">Image of Swell, Wind or Tide Chart</string>
+    <string name="beachDescrip_Text">Forecasted conditions</string>
+    <string name="beachName_Text">Name of the beach pictured</string>
+    <string name="imageOfBeach">Image of beach</string>
+
+    <!--Names of the beaches-->
+    <string name="anglet">Anglet</string>
+    <string name="grandeplage">Grande Plage</string>
+    <string name="cotedebasque">Cote de Basque</string>
+    <string name="milady">Milady</string>
+    <string name="parlementia">Parlementia</string>
+    <string name="stjeandeluz">St. Jean de Luz</string>
+    <string name="hendaye">Hendaye</string>
+
+    <!--Swell-->
+    <string name="angletSwell">Swell hits Anglet directly, this spot is not for the faint of heart.</string>
+    <string name="grandePlageSwell">Swell gets really hollow here two hours prior to dead low.</string>
+    <string name="coteDeBasqueSwell">Perfect spot for SW swell direction. Long, rolling waves to be had.</string>
+    <string name="miladySwell">Usually less people than Cote De Basque but same wave type.</string>
+    <string name="parlementiaSwell">Outside gets perfect waves, paddle in from the port. Inside gets crowded.</string>
+    <string name="stjeandeluzSwell">When the swell is too big to surf anywhere else, this place is firing.</string>
+    <string name="hendayeSwell">Hendaye handles all swell directions and provides soft, longboardable waves.</string>
+
+
+    <!--Wind-->
+    <string name="angletWind">Winds over 20kph (from any direction) blow out the spot.</string>
+    <string name="grandePlageWind">Protected from North and South winds. Good on most days.</string>
+    <string name="coteDeBasqueWind">Winds from the South will blow it out but it is protected from the North.</string>
+    <string name="miladyWind">Exposed from all directions. When the wind is up, this is out.</string>
+    <string name="parlementiaWind">Too strong of a wind will make you drift out to sea. Keep alert.</string>
+    <string name="stJeanDeLuzWind">Winds have no effect on this spot. It\'s protected from all angles.</string>
+    <string name="hendayeWind">Winds over 20kph create a current but it\'s always still surfable.</string>
+
+    <!--Tides-->
+    <string name="angletTides">Anglet works on all tides. Keep an eye out for rocks in certain places though.</string>
+    <string name="grandePlageTides">An hour before and after both High and Low tides is not the time to be in the water.</string>
+    <string name="coteDeBasqueTides">An hour or two before and after High tide are the only times to avoid.</string>
+    <string name="miladyTides">Low tide shows all the rocks. But at least you know where not to be.</string>
+    <string name="parlementiaTides">Outside works at either tide. On the inside; watch out for the reef.</string>
+    <string name="stJeanDeLuzTides">Going into and out of Low tides can be dangerous. Pay attention to the tides here.</string>
+    <string name="hendayeTides">All tides work. But you will have to shift south at High tide.</string>
+
+    <!--Forecast-->
+    <string name="Anglet_Forecast">Gentle onshore wind that dies down around noon.</string>
+    <string name="GrandPlage_Forecast">Waves are perfect.Crowds will be out there today!</string>
+    <string name="CoteBasque_Forecast">High tide at 11 a.m. Anytime after 12 noon will be great.</string>
+    <string name="Milady_Forecast">Surf is perfect before 5:15 p.m. which is Dead Low Tide.</string>
+    <string name="Parlementia_Forecast">Inside and outside will be firing all day.</string>
+    <string name="StJeandeLuz_Forecast">Might be a small bump but plenty of other spots open.</string>
+    <string name="Hendaye_Forecast">Waves will be in the waist high range.</string>
+
+</resources>

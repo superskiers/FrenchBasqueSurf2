@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <dimen name="three10DP">310dp</dimen>
+    <dimen name="twentyDP">20dp</dimen>
+    <dimen name="seizeDP">16dp</dimen>
+    <dimen name="fiftyDP">50dp</dimen>
+    <dimen name="one10DP">110dp</dimen>
+    <dimen name="seizeSP">16sp</dimen>
+</resources>

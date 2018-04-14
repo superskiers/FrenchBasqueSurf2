@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/WrapMatch">
+
+
+    <ImageView
+        android:id="@+id/imageOfBeach"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/three10DP"
+        android:contentDescription="@string/imageOfBeach"/>
+
+    <LinearLayout
+        android:id="@+id/text_container"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        style="@style/WrapMatch"
+        android:orientation="vertical"
+        android:layout_alignParentEnd="true">
+
+        <TextView
+            android:id="@+id/beachName_Text"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/twentyDP"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/seizeSP"
+            android:contentDescription="@string/beachName_Text"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/beachDescrip_Text"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/fiftyDP"
+            android:textSize="@dimen/seizeSP"
+            android:contentDescription="@string/beachDescrip_Text"
+            android:textColor="@android:color/black" />
+
+    </LinearLayout>
+
+
+    <ImageView
+        android:id="@+id/imageInfoView"
+        android:layout_below="@id/text_container"
+        android:contentDescription="@string/imageInfoView"
+        android:layout_marginTop="@dimen/one10DP"
+        style="@style/WrapMatch"/>
+
+</RelativeLayout>
