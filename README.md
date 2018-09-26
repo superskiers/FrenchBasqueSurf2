@@ -7,6 +7,7 @@ The specifications were as follows:
  - User navigates between lists in Fragments using either a Navigation Drawer or ViewPager plus Tab Layout
  - Each list item contains information about an event, restaurant, historical site or similar
  - At least one list includes pictures of the location
+ 
  As you will see by my App; I differed from the norm and created a Tour Guide App for Surfers that visit my region.
  Additionally, i took the app a step further by implementing a final activity that houses each Tab for a specific location
  into one page that groups all of the relevant information for one location in one activity.
