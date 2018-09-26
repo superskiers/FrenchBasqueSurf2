@@ -1,40 +1,52 @@
 package com.example.superskiers.frenchbasquesurf;
 
 
-class Beach {
+public class Beach {
 
-    //Text resources for the word
-    private final String beachName;
-    private final String beachDescrip;
-    //Image resource ID for the word
-    private final int mImageResourceId;
+    //TextView resources
+    private final String mBeachName;
+    private final String mBeachDescription;
+    private String mBeachForecast;
+
+    //ImageView resources
+    private final int mImageResourceId; //mImageResourceId is for the main image of each beach
     //Image of corresponding report (swell, tides)
-    private int imageOfReport;
+    private int mImageOfReport;
+    private int mImageOfWind;
+    private int mImageOfTides;
+    private int mImageOfSwell;
 
-
-
-    //Constructor
-    public Beach(String nWord, String dWord, int imageResourceID){
-        beachName = nWord;
-        beachDescrip = dWord;
-        mImageResourceId = imageResourceID;
-    }
-    public Beach(String nWord, String dWord, int imageResourceId, int imageOfReportId){
-        beachName = nWord;
-        beachDescrip = dWord;
+    //Constructor for the new Beach object with image of corresponding report i.e. tides, swell, etc.
+    //Used to hold key and value pairs for intent to AllFragmentsActivity
+    public Beach(String beachName, String beachDescription, String beachForecast, int imageResourceId,
+                 int imageOfReportId, int imageOfSwell, int imageOfWind, int imageOfTides) {
+        mBeachName = beachName;
+        mBeachDescription = beachDescription;
+        mBeachForecast = beachForecast;
         mImageResourceId = imageResourceId;
-        imageOfReport = imageOfReportId;
-
-
+        mImageOfReport = imageOfReportId;
+        mImageOfSwell = imageOfSwell;
+        mImageOfWind = imageOfWind;
+        mImageOfTides = imageOfTides;
     }
-
+    //Constructor for the new Beach object for corresponding fragment
+    public Beach(String beachName, String beachDescription, String beachForecast, int imageResourceID,
+                 int imageOfSwell, int imageOfWind, int imageOfTides) {
+        mBeachName = beachName;
+        mBeachDescription = beachDescription;
+        mImageResourceId = imageResourceID;
+        mBeachForecast = beachForecast;
+        mImageOfSwell = imageOfSwell;
+        mImageOfWind = imageOfWind;
+        mImageOfTides = imageOfTides;
+    }
     //Return the description of the beach
-    public String getbeachDescripText(){
-        return beachDescrip;
+    public String getbeachDescriptionText(){
+        return mBeachDescription;
     }
     //Return the beachName
     public String getbeachNameText(){
-        return beachName;
+        return mBeachName;
     }
     //Return the Image of beach
     public  int getmImageResourceId(){
@@ -42,9 +54,24 @@ class Beach {
     }
     //Return the image of specified report (i.e. swell or tides)
     public int getImageOfReport(){
-        return imageOfReport;
+        return mImageOfReport;
     }
-
+    //Return the image of swell report
+    public int getmImageOfSwell() {
+        return mImageOfSwell;
     }
+    //Return the image of wind report
+    public int getmImageOfWind() {
+        return mImageOfWind;
+    }
+    //Return the image of tides report
+    public int getmImageOfTides() {
+        return mImageOfTides;
+    }
+    //Return String of forecast
+    public String getmBeachForecast() {
+        return mBeachForecast;
+    }
+}
 
 

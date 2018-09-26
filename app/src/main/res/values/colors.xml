@@ -4,5 +4,9 @@
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
 
+    <color name="small_swell_blue">#0ebdf7</color>
+    <color name="big_swell_blue">#16a0ce</color>
 
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
 </resources>

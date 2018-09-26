@@ -1,10 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:tools="http://schemas.android.com/tools">
 
-    <dimen name="three10DP">310dp</dimen>
-    <dimen name="twentyDP">20dp</dimen>
-    <dimen name="seizeDP">16dp</dimen>
-    <dimen name="fiftyDP">50dp</dimen>
-    <dimen name="one10DP">110dp</dimen>
-    <dimen name="seizeSP">16sp</dimen>
+    <dimen name="three10_dp">310dp</dimen>
+    <dimen name="twenty_dp">20dp</dimen>
+    <dimen name="seize_dp">16dp</dimen>
+    <dimen name="fifty_dp">50dp</dimen>
+    <dimen name="one10_dp">110dp</dimen>
+    <dimen name="seize_sp">16sp</dimen>
+    <dimen name="one57_dp">157dp</dimen>
+    <dimen name="two32_dp">232dp</dimen>
+    <dimen name="eight_dp">8dp</dimen>
+    <dimen name="two57_dp">257dp</dimen>
+    <dimen name="neg150_dp">-150dp</dimen>
 </resources>
