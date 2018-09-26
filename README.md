@@ -12,3 +12,4 @@ The specifications were as follows:
  Additionally, i took the app a step further by implementing a final activity that houses each Tab for a specific location
  into one page that groups all of the relevant information for one location in one activity.
  
+ ![](FrenchBasqueSurfScreenShots.png)
