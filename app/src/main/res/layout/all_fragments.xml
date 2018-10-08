@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/beach_name_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/twenty_dp"
+            android:layout_marginLeft="@dimen/eight_dp"
+            android:layout_marginTop="@dimen/seize_dp"
+            android:contentDescription="@string/text_name_of_beach"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/seize_sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/beach_descrip_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/eight_dp"
+            android:layout_marginRight="@dimen/eight_dp"
+            android:contentDescription="@string/text_description_of_beach"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/seize_sp" />
+
+        <TextView
+            android:id="@+id/beach_forecast"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/eight_dp"
+            android:layout_marginRight="@dimen/eight_dp"
+            android:contentDescription="@string/text_forecast_of_spot"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/seize_sp" />
+
+        <ImageView
+            android:id="@+id/image_of_beach"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/two32_dp"
+            android:layout_marginTop="@dimen/eight_dp"
+            android:contentDescription="@string/image_of_beach" />
+
+        <ImageView
+            android:id="@+id/swell_image_view"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/two57_dp"
+            android:layout_marginTop="@dimen/neg150_dp"
+            android:contentDescription="@string/image_of_report" />
+
+        <ImageView
+            android:id="@+id/tides_image_view"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/two57_dp"
+            android:layout_marginTop="@dimen/neg150_dp"
+            android:contentDescription="@string/image_of_report" />
+
+        <ImageView
+            android:id="@+id/wind_image_view"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/two57_dp"
+            android:layout_marginTop="@dimen/neg150_dp"
+            android:contentDescription="@string/image_of_report" />
+    </LinearLayout>
+</ScrollView>
